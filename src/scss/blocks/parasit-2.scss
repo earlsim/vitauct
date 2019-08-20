@@ -1,0 +1,39 @@
+.block {
+  &--gray {
+    background-color: $c-gray;
+  }
+}
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.block__title {
+  text-align: center;
+  font-family: Franklin Gothic Heavy;
+  font-size: 48px;
+  line-height: 1.292em;
+  color: $c-text-primary;
+}
+.block-section {
+  display: flex;
+  justify-content: space-between;
+}
+.section-title {
+  font-family: Franklin Gothic Demi;
+  font-size: 36px;
+  line-height: 1.333em;
+  color: $c-text-primary;
+}
+.section-text {
+  font-family: Franklin Gothic Book;
+  font-size: 20px;
+  line-height: 1.200em;
+  color: $c-text-third;
+}
+
+.section-img {
+  width: 41%;
+}
+.parasit-img {
+  width: 100%;
+}

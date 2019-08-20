@@ -1,0 +1,135 @@
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  font-family: Franklin Gothic Demi;
+  color: $c-white;
+}
+.header_inner {
+  margin-top: 40px;
+  padding:0 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left {
+
+}
+.header-right {
+  display: flex;
+  align-items: center;
+}
+.head-content__left {
+  margin: 154px 0 0 0;
+
+  padding-left: 80px;
+  max-width: 792px;
+}
+.header-instructions {
+  display: flex;
+  align-items: center;
+}
+.header-instructions__logo {
+  position: relative;
+  margin-right: 12px;
+  display: inline;
+  width: 44px;
+  height: 44px;
+  background-color: $c-white;
+  border-radius: 100%;
+}
+.instruction-logo__img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.header-instructions__text {
+
+}
+.instructions-title {
+  font-size: 20px;
+  line-height: 1.300em;
+}
+.instructions-download {
+
+}
+.header-telephone {
+  margin-left: 48px;
+  &__tel {
+    font-size: 36px;
+    line-height: 1.333em;
+  }
+  &__call {
+    text-align: right;
+  }
+}
+.head-bg {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  background-color: $c-gray;
+}
+.head-bg__img {
+  width: 69.6875%;
+  float: right;
+}
+.head-content__title {
+  margin-bottom: 32px;
+  font-family: Franklin Gothic Heavy;
+  font-size: 64px;
+  line-height: 0.969em;
+  color: $c-text-primary;
+}
+.head-content__sub-title {
+  max-width: 534px;
+  margin-bottom: 40px;
+  font-family: Franklin Gothic Demi;
+  font-size: 20px;
+  line-height: 1.200em;
+  color: $c-text-secondary;
+}
+.head-content__btn {
+
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 265px;
+  height: 48px;
+  font-family: Franklin Gothic Book;
+  font-size: 18px;
+  line-height: 1.222em;
+  color: $c-text-primary;
+  background-color: $c-yellow;
+  border-radius: 144px;
+  cursor: pointer;
+}
+.head-content__items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -24px 0 0 -24px;
+}
+.head-item {
+  padding: 24px 0 0 16px;
+  width: 33.333%;
+  position: relative;
+
+  &__text {
+    text-align: left;
+    padding-left: 46px;
+    font-family: Franklin Gothic Book;
+    font-size: 18px;
+    color: $c-text-third;
+    line-height: 1.111em;
+  }
+  &::before{
+    content: '';
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-image: url("../img/item-leaf.svg");
+  }
+}
