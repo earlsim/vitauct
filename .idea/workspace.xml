@@ -3,6 +3,103 @@
   <component name="ChangeListManager">
     <list default="true" id="db535626-6323-40e9-a87f-ccd9109054d0" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vita-9.loc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/franklin_gothic_book.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/franklin_gothic_demi.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/franklin_gothic_heavy.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/franklin_gothic_heavy_italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/5-steps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/apteka1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/apteka2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/apteka3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/blue-flower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/buy-green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/center-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/complex-product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/document.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/family-header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/fito-complex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/forest-video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/free-shipping.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/galary2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/galary3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/galary4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/galery1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/green-fruit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/green-spot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/gvozd-tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/head-box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/item-leaf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/micro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/microscope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/round-portrait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/sertificate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/shield.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/spoon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/stomach-ache.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/yellow-beries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/js/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/franklin_gothic_book.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/franklin_gothic_demi.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/franklin_gothic_heavy.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/franklin_gothic_heavy_italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/5-steps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/apteka1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/apteka2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/apteka3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/blue-flower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/buy-green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/center-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/complex-product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/document.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/family-header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/fito-complex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/forest-video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/free-shipping.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/galary2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/galary3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/galary4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/galery1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/green-fruit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/green-spot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/gvozd-tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/head-box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/item-leaf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/micro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/microscope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/round-portrait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sertificate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/shield.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/spoon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/stomach-ache.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/yellow-beries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/buy-block.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/parasit-2.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/swiper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/system/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/system/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/system/_start.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/system/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,7 +138,11 @@
       </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="buy-block.scss" pinned="false" current-in-tab="false">
@@ -139,6 +240,7 @@
         <option value="$PROJECT_DIR$/src/scss/app.scss" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/scss/blocks/parasit-2.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -235,27 +337,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566287905117</updated>
-      <workItem from="1566287914194" duration="21711000" />
+      <workItem from="1566287914194" duration="22397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21711000" />
+    <option name="totallyTimeSpent" value="22397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1904762" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1904762" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.05245347" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32994923" />
       <window_info id="npm" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32994923" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32994923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -288,6 +390,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -415,7 +543,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
