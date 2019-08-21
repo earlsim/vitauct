@@ -1,10 +1,105 @@
-.swiper-wrapper {
-  display: flex;
+.swiper-9ka {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1384px;
 }
-.swiper-slide {
+.apteka-slide {
   width: 212px;
   height: 62px;
 }
 .slider-logo__img {
   width: 100%;
+}
+.plants-slider {
+  margin-top: 48px;
+
+  overflow: hidden;
+}
+.plants-slider-container {
+  position: relative;
+  margin-bottom: 88px;
+  display: flex;
+  padding-left: 224px;
+}
+.plants-slide__img {
+  width: 100%;
+}
+.swiper-plant-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: baseline;
+  height: 100%;
+}
+.swiper-plant-slide__img {
+  margin-bottom: 16px;
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+}
+.swiper-plant-slide__title {
+  margin-bottom: 8px;
+  font-family: Franklin Gothic Demi;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.300em;
+  color: $c-text-primary;
+}
+.swiper-plant-slide__text {
+  padding: 0 18px;
+  text-align: center;
+  font-family: Franklin Gothic Book;
+  font-size: 18px;
+  line-height: 1.111em;
+  color: $c-text-third;
+}
+
+
+
+
+
+.swiper-button-next,.swiper-button-prev {
+  background-image: url("../img/slider-arrow.svg");
+  background-size: 7px 14px;
+  width: 7px;
+  height: 14px;
+  margin: -10px;
+}
+.swiper-button-prev {
+  transform: rotateY(180deg);
+}
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: -56px;
+}
+.swiper-pagination-bullet {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #D1D2D4;
+  background: transparent;
+  transition: opacity .4s;
+}
+.swiper-pagination-bullet::before {
+  content: '';
+  margin: auto;
+  border-radius: 100%;
+  background-color: #00AF61;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+}
+
+
+
+.slide-certificate-img {
+  width: 100%;
+  cursor: pointer;
+    &:hover {
+
+    }
 }

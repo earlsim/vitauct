@@ -4,7 +4,16 @@
 @import './system/_start.scss';
 
 // Blocks
+@import './blocks/accept-healing.scss';
 @import './blocks/header.scss';
 @import './blocks/buy-block.scss';
+@import './blocks/base.scss';
+@import './blocks/clinical-research.scss';
+@import './blocks/healing-consist.scss';
+@import './blocks/features.scss';
 @import './blocks/parasit-2.scss';
 @import './blocks/swiper.scss';
+@import './blocks/shield.scss';
+
+
+@import '../../node_modules/swiper/dist/css/swiper.css';

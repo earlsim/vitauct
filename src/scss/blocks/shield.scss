@@ -1,0 +1,17 @@
+.shield-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0 48px 0;
+}
+.shield-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 28%;
+}
+.shield-item__icon {
+  margin-bottom: 16px;
+}
+.shield-item__text {
+  text-align: center;
+}

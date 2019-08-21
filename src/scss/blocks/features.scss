@@ -1,0 +1,63 @@
+.features {
+  position: relative;
+  margin-top: 36px;
+  &:before {
+
+  }
+}
+.features-head__title {
+  width: 61%;
+  margin-bottom: 16px;
+  font-family: Franklin Gothic Heavy;
+  font-size: 48px;
+  line-height: 1.292em;
+  color: $c-text-primary;
+}
+.features-head__subtitle {
+  margin-bottom: 75px;
+  width: 40%;
+  font-family: Franklin Gothic Demi;
+  font-size: 20px;
+  line-height: 1.200em;
+  color: $c-text-primary;
+}
+.features-body__grid {
+  margin: -40px 0 0 -16px;
+  width: 53.6%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.features-body__item {
+  width: 48.9%;
+  padding: 40px 0 0 16px;
+  display: flex;
+}
+.features-item__num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 57px;
+  height: 54px;
+  margin-right: 15px;
+  background: url("../img/green-spot.svg") no-repeat;
+  font-family: Franklin Gothic Demi;
+  font-size: 26px;
+  line-height: 1.154em;
+  color: $c-white;
+}
+.features-item__text {
+  width: 80%;
+  font-family: Franklin Gothic Book;
+  font-size: 20px;
+  line-height: 1.200em;
+  color: #58585A;
+}
+.spoon {
+  position: relative;
+  top: 0;
+}
+.spoon-img {
+  position: absolute;
+  top: -190px;
+  right: 0;
+}

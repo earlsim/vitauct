@@ -1,0 +1,36 @@
+.healing-consist {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding-bottom: 122px;
+}
+.healing-consist__img {
+  width: 40%;
+}
+.healing-img {
+
+}
+.healing-consist__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 48.7%;
+}
+.healing-title {
+  font-family: Franklin Gothic Demi;
+  font-size: 36px;
+  line-height: 1.333em;
+  color: $c-text-primary;
+}
+.healing-text {
+  font-family: Franklin Gothic Demi;
+  font-size: 20px;
+  line-height: 1.200em;
+  color: $c-text-primary;
+}
+.healing-btn {
+  width: 196px;
+  height: 48px;
+}

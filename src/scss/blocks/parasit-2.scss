@@ -1,13 +1,21 @@
-.block {
-  &--gray {
-    background-color: $c-gray;
-  }
+.block__sub-title {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 854px;
+  font-family: Franklin Gothic Demi;
+  font-size: 20px;
+  line-height: 1.200em;
+  color: $c-text-primary;
 }
 .container {
   margin: 0 auto;
   max-width: 1170px;
+    &--1400 {
+      max-width: 1400px;
+    }
 }
 .block__title {
+  padding: 72px 0 56px 0;
   text-align: center;
   font-family: Franklin Gothic Heavy;
   font-size: 48px;
@@ -17,8 +25,16 @@
 .block-section {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 40px;
+}
+.section__text {
+  width: 48%;
+}
+.section__img {
+  width: 42%;
 }
 .section-title {
+  margin-bottom: 16px;
   font-family: Franklin Gothic Demi;
   font-size: 36px;
   line-height: 1.333em;
@@ -32,8 +48,17 @@
 }
 
 .section-img {
-  width: 41%;
+
 }
 .parasit-img {
+  width: 100%;
+}
+.block-bottom-curve {
+  position: relative;
+
+}
+.gray-curve-img {
+  position: absolute;
+  bottom: 0;
   width: 100%;
 }

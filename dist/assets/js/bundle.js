@@ -175,7 +175,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper */ \"./node_modules/swiper/dist/js/swiper.esm.bundle.js\");\n\nvar swiper9th = new swiper__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('.swiper-9ka', {\n  speed: 600,\n  slidesPerView: 6,\n  spaceBetween: 24\n});\n\n//# sourceURL=webpack:///./src/js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper */ \"./node_modules/swiper/dist/js/swiper.esm.bundle.js\");\n\nlet swiper9th = new swiper__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('.swiper-9ka', {\n  speed: 600,\n  slidesPerView: 6,\n  spaceBetween: 24,\n  loop: true,\n  navigation: {\n    nextEl: '.swiper-button-next',\n    prevEl: '.swiper-button-prev'\n  }\n});\nlet swiperPlants = new swiper__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('.plants-slider-container', {\n  speed: 600,\n  slidesPerView: 3.5,\n  spaceBetween: 24,\n  loop: true,\n  pagination: {\n    el: '.swiper-pagination',\n    clickable: true\n  }\n});\nlet swiperCertificate = new swiper__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('.sertificate-slider', {\n  speed: 600,\n  slidesPerView: 5,\n  spaceBetween: 24,\n  navigation: {\n    nextEl: '.swiper-button-next',\n    prevEl: '.swiper-button-prev'\n  }\n});\n\n//# sourceURL=webpack:///./src/js/main.js?");
 
 /***/ }),
 

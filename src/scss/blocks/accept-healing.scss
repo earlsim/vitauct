@@ -1,0 +1,49 @@
+.accept-healing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1392px;;
+  padding: 110px 0 80px 0;
+  color: $c-white;
+}
+.accept-title {
+  margin-bottom: 8px;
+  font-family: Franklin Gothic Heavy;
+  font-size: 48px;
+  line-height: 1.292em;
+}
+.accept-subtitle {
+  margin-bottom: 32px;
+  font-family: Franklin Gothic Demi;
+  font-size: 20px;
+  line-height: 1.200em;
+}
+.form-row {
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.form-input {
+  margin-bottom: 38px;
+  padding: 18px 16px;
+  width: 48%;
+  height: 56px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  color: $c-text-third;
+  font-size: 16px;
+  line-height: 1.250em;
+}
+.form-btn {
+  width: 196px;
+  height: 48px;
+  background-color: $c-white;
+  font-family: Franklin Gothic Book;
+  font-size: 18px;
+  line-height: 1.222em;
+  letter-spacing: 1px;
+  border-radius: 144px;
+  cursor: pointer;
+}

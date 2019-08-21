@@ -91,14 +91,11 @@
   line-height: 1.200em;
   color: $c-text-secondary;
 }
-.head-content__btn {
-
+.btn {
   margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 265px;
-  height: 48px;
   font-family: Franklin Gothic Book;
   font-size: 18px;
   line-height: 1.222em;
@@ -106,6 +103,15 @@
   background-color: $c-yellow;
   border-radius: 144px;
   cursor: pointer;
+
+  &--head {
+  width: 265px;
+  height: 48px;
+  }
+  &--healing {
+    width: 196px;
+    height: 48px;
+  }
 }
 .head-content__items {
   display: flex;
