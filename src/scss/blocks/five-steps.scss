@@ -1,0 +1,25 @@
+.five-steps {
+  padding: 160px 0 120px 0;
+  background-color: $c-gray;
+  background: url("../img/5-steps.png") $c-gray no-repeat center;
+  background-size: cover;
+  background-position: top;
+}
+.five-steps-container {
+  max-width: 740px;
+  margin: 0 auto;
+  text-align: center;
+}
+.five-steps__title {
+  margin-bottom: 40px;
+  font-family: Franklin Gothic Heavy;
+  font-size: 48px;
+  line-height: 1.292em;
+  color: $c-white;
+}
+.five-steps__text {
+  font-family: Franklin Gothic Demi;
+  font-size: 20px;
+  line-height: 1.200em;
+  color: $c-white;
+}

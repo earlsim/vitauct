@@ -23,8 +23,8 @@ let swiperCertificate = new Swiper('.sertificate-slider', {
    speed:600,
    slidesPerView: 5,
     spaceBetween: 24,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+    pagination: {
+        el: '.swiper-pagination-docs',
+        clickable: true,
     }
 });
