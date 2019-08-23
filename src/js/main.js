@@ -22,9 +22,25 @@ let swiperPlants = new Swiper('.plants-slider-container', {
 let swiperCertificate = new Swiper('.sertificate-slider', {
    speed:600,
    slidesPerView: 5,
-    spaceBetween: 24,
-    pagination: {
+   spaceBetween: 24,
+   pagination: {
         el: '.swiper-pagination-docs',
         clickable: true,
     }
 });
+let swiperPeople = new Swiper('.people-slider', {
+   speed:400,
+   slidesPerView: 1,
+    pagination: {
+        el: '.swiper-pagination--video',
+        clickable: true,
+        dynamicBullets: true,
+        dynamicMainBullets: 3,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next--people-slider',
+        prevEl: '.swiper-button-prev--people-slider',
+    }
+});
+
+//js-show-more
