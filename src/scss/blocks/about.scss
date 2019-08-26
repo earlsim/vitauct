@@ -1,0 +1,52 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 56px;
+
+  &__video {
+    display: flex;
+    width: 40%;
+    position: relative;
+    cursor: pointer;
+
+    &:after {
+      content: '';
+      position: absolute;
+      margin: auto;
+      width: 56px;
+      height: 56px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: url("../img/play.svg") no-repeat;
+    }
+  }
+
+  &__info {
+    width: 50%;
+    font-family: Franklin Gothic Demi;
+    color: $c-white;
+  }
+}
+.about-video {
+  width: 100%;
+  align-self: center;
+}
+.about-info__title {
+  margin-bottom: 16px;
+  font-size: 36px;
+  line-height: 1.333em;
+}
+.about-info__text {
+  font-size: 20px;
+  line-height: 1.200em;
+
+  & p {
+    max-width: 572px;
+
+    &:not(:last-child) {
+      margin-bottom: 12px;
+    }
+  }
+}

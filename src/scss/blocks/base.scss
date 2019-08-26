@@ -1,9 +1,11 @@
 .block {
   position: relative;
+
   &--gray {
     position: relative;
     background-color: $c-gray;
   }
+
   &--wh-ln:before {
     content: '';
     position: absolute;
@@ -12,6 +14,7 @@
     bottom: 0;
     background: url("../img/white-top-line.svg");
   }
+
   &--green {
     margin-top: 110px;
     margin-bottom: 80px;
@@ -19,7 +22,17 @@
     background-size: cover;
     background-position: top;
   }
+
+  &--oh {
+    overflow: hidden;
+  }
+
+  &--green-c {
+    background-color: $c-green;
+    padding: 88px 0 72px 0;
+  }
 }
+
 .block__sub-title {
   margin: 0 auto;
   text-align: center;
@@ -29,13 +42,16 @@
   line-height: 1.200em;
   color: $c-text-primary;
 }
+
 .container {
   margin: 0 auto;
   max-width: 1170px;
+
   &--1400 {
-    max-width: 1400px;
+    max-width: 1392px;
   }
 }
+
 .block__title {
   padding: 72px 0 56px 0;
   text-align: center;
@@ -48,8 +64,48 @@
     padding-bottom: 40px;
   }
 }
+
 .block-section {
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
+}
+
+.block-splited {
+
+  &:before {
+    z-index: -1;
+    position: absolute;
+    content: '';
+    height: 100%;
+    background: url("../img/left-side.svg") no-repeat;
+    background-size: 100% 100%;
+    width: 66.77%;
+  }
+}
+
+.block-blur {
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: url("../img/fito-complex.png") no-repeat;
+  background-size: cover;
+  filter: blur(2px);
+
+  &:before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: $c-green;
+    opacity: .8;
+  }
 }

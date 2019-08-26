@@ -1,4 +1,5 @@
 import Swiper from 'swiper';
+import $ from 'jquery';
 let swiper9th = new Swiper('.swiper-9ka', {
     speed: 600,
     slidesPerView: 6,
@@ -42,5 +43,33 @@ let swiperPeople = new Swiper('.people-slider', {
         prevEl: '.swiper-button-prev--people-slider',
     }
 });
+let swiperBenefits = new Swiper('.benefits__slider', {
+    speed: 400,
+    slidesPerView: 2,
+    spaceBetween: 26,
+    loop: true
+});
 
-//js-show-more
+//legacy :(
+
+$('.js-faq').click( function () {
+    $(this).closest('.faq-item').toggleClass('is-active');
+    $(this).closest('.faq-item').find('.js-faq-text').toggle(200);
+});
+$('.js-spl-item').click(function () {
+
+        if ($(this).hasClass('is-active')) {
+            $(this).removeClass('is-active');
+        } else {
+            let arr = $(this).closest('.splited-left').find('.is-active');
+            $.each(arr,function () {
+                $(this).removeClass('is-active');
+            });
+            $(this).addClass('is-active');
+        }
+        let container = $('.js-chng-txt');
+        let txt = $(this).siblings('.hidden-text').text();
+        container.text(txt);
+
+    }
+);

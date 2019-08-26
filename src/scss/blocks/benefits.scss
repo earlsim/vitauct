@@ -1,0 +1,38 @@
+.benefits {
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 110%;
+}
+.benefits__title {
+  margin-bottom: 33px;
+  font-family: Franklin Gothic Demi;
+  font-size: 36px;
+  line-height: 1.333em;
+  color: $c-white;
+}
+.benefits__slider {
+  margin: 0 auto;
+  overflow: visible;
+  width: 36%;
+}
+.benefits-slide {
+  padding: 22px;
+  min-height: 156px;
+  background-color: $c-white;
+  font-family: Franklin Gothic Book;
+  font-size: 18px;
+  border-radius: 20px;
+  transition: opacity .4s;
+}
+.benefits-slide.swiper-slide {
+  opacity: .75;
+}
+.benefits-slide.swiper-slide-next {
+  opacity: 1;
+}
+.benefits-slide.swiper-slide-active {
+  opacity: 1;
+}
