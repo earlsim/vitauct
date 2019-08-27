@@ -1,4 +1,5 @@
 .header {
+  z-index: 3;
   position: absolute;
   top: 0;
   width: 100%;
@@ -19,10 +20,42 @@
   display: flex;
   align-items: center;
 }
+.head-content {
+  z-index: 1;
+  background-color: $c-gray;
+  position: relative;
+}
+.head-content:before {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 69.68%;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  background: url("../img/green-head-bg.png") no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+.head-content:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 65%;
+  height: 92.15%;
+  top: auto;
+  bottom: 0;
+  left: auto;
+  right: 6.459%;
+  background: url("../img/family.png") no-repeat;
+  background-size: auto 100%;
+  background-position: right;
+}
 .head-content__left {
-  margin: 154px 0 0 0;
+  padding: 154px 0 70px 80px;
 
-  padding-left: 80px;
+  //padding-left: 80px;
   max-width: 792px;
 }
 .header-instructions {
@@ -66,16 +99,7 @@
     text-align: right;
   }
 }
-.head-bg {
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  background-color: $c-gray;
-}
-.head-bg__img {
-  width: 69.6875%;
-  float: right;
-}
+
 .head-content__title {
   margin-bottom: 32px;
   font-family: Franklin Gothic Heavy;

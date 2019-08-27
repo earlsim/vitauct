@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "C:\\OSPanel\\domains\\vita-9.loc\\dist";
+/******/ 	__webpack_require__.p = "D:\\webdev\\openserver\\OSPanel\\domains\\vata9.loc\\vitauct\\dist";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
