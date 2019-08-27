@@ -38,7 +38,7 @@
 }
 .swiper-plant-slide__img {
   margin-bottom: 16px;
-  border-radius: 20px 20px 0 0;
+  border-radius: 20px;
   overflow: hidden;
 }
 .swiper-plant-slide__title {
@@ -185,6 +185,10 @@
   bottom: 0;
   top: auto;
   margin: auto;
+
+  &--b110 {
+    bottom: 110px;
+  }
 }
 .swiper-button-prev--people-slider {
   right: 120px;
@@ -192,4 +196,20 @@
   top: auto;
   left: auto;
   margin: auto;
+
+  &--b110 {
+    bottom: 110px;
+  }
+}
+.swiper-button-prev--galr, .swiper-button-next--galr {
+  //top: 70%;
+}
+.swiper-button-prev--galr {
+  left: 8.54%;
+}
+.swiper-button-next--galr {
+  right: 8.54%;
+}
+.galery-slider > .swiper-pagination {
+  bottom: 72px;
 }

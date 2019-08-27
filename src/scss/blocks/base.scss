@@ -28,8 +28,22 @@
   }
 
   &--green-c {
-    background-color: $c-green;
+    background: url("../img/big-leaf.png");
+    background-position: center;
     padding: 88px 0 72px 0;
+  }
+
+  &--green-complex {
+    background-color: $c-green;
+    color: $c-white;
+  }
+
+  &--p50-72 {
+    padding: 50px 0 72px 0;
+  }
+
+  &--pb172 {
+    padding-bottom: 172px;
   }
 }
 
@@ -108,4 +122,28 @@
     background-color: $c-green;
     opacity: .8;
   }
+}
+
+.video {
+  position: relative;
+  width: 48%;
+  border-radius: 20px;
+  overflow: hidden;
+
+  &--w {
+    width: auto;
+  }
+}
+
+.video:after {
+  content: '';
+  position: absolute;
+  margin: auto;
+  width: 56px;
+  height: 56px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("../img/play.svg") no-repeat;
 }

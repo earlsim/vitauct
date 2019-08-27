@@ -47,7 +47,27 @@ let swiperBenefits = new Swiper('.benefits__slider', {
     speed: 400,
     slidesPerView: 2,
     spaceBetween: 26,
-    loop: true
+    loop: true,
+    grabCursor: true,
+    resistance: false,
+    loopAdditionalSlides: 6,
+    freeModeMomentum: true,
+});
+
+let galerySlider = new Swiper('.galery-slider', {
+    speed:400,
+    slidesPerView: 4,
+    spaceBetween: 24,
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicMainBullets: 3,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    }
 });
 
 //legacy :(
@@ -70,6 +90,5 @@ $('.js-spl-item').click(function () {
         let container = $('.js-chng-txt');
         let txt = $(this).siblings('.hidden-text').text();
         container.text(txt);
-
     }
 );
