@@ -1,0 +1,35 @@
+.warning-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -96px 0 0 -24px;
+}
+.warning-grid__item {
+  width: 50%;
+  padding: 96px 0 0 24px;
+  height: 416px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media ($m-m) {
+    width: 33.3333%;
+}
+}
+.warning-item__icon {
+  height: 75%;
+  margin-bottom: 24px;
+}
+.warning-img {
+  height: 100%;
+
+  &--ml32 {
+    margin-left: -32px;
+  }
+}
+.warning-item__text {
+  font-family: Franklin Gothic Demi;
+  font-size: 24px;
+  line-height: 1em;
+  color: $c-text-primary;
+}

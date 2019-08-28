@@ -1,0 +1,23 @@
+.reasones-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 0 0 -24px;
+  color: $c-white;
+}
+.reasones-grid__item {
+  width: 33.333%;
+  height: 176px;
+  padding: 0 0 0 24px;
+  text-align: center;
+
+  @media ($m-xs) {
+    width: 25%;
+  }
+  @media ($m-s) {
+    width: 20%;
+  }
+  @media ($m-m) {
+    width: 16.6%;
+  }
+}

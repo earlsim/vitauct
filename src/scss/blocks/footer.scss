@@ -1,0 +1,44 @@
+.footer {
+  padding: 41px 144px 24px 144px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Franklin Gothic Book;
+  color: $c-text-third;
+}
+.footer__left {
+  width: 50%;
+}
+.footer__right {
+  width: 50%;
+}
+.footer-left__logo {
+  margin-bottom: 46px;
+}
+.footer-left__links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-link {
+  line-height: 1.250em;
+
+}
+.footer__right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.footer-instruction__title {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 24px;
+  line-height: 1.250em;
+}
+.footer-right__phone {
+  margin-left: 64px;
+}
+.footer-instruction__link {
+  display: block;
+  text-align: right;
+  color: $c-green;
+}

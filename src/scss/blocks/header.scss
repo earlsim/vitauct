@@ -29,27 +29,27 @@
   z-index: -1;
   content: '';
   position: absolute;
-  width: 69.68%;
+  width: 100%;
   top: 0;
   bottom: 0;
   left: auto;
   right: 0;
   background: url("../img/green-head-bg.png") no-repeat;
-  background-size: cover;
+  background-size: 69.68% 100%;
   background-position: right;
 }
 .head-content:after {
   z-index: -1;
   content: '';
   position: absolute;
-  width: 65%;
+  width: 100%;
   height: 92.15%;
   top: auto;
   bottom: 0;
   left: auto;
   right: 6.459%;
   background: url("../img/family.png") no-repeat;
-  background-size: auto 100%;
+  background-size: 65% auto;
   background-position: right;
 }
 .head-content__left {
@@ -87,7 +87,7 @@
   line-height: 1.300em;
 }
 .instructions-download {
-
+  cursor: pointer;
 }
 .header-telephone {
   margin-left: 48px;
@@ -97,6 +97,7 @@
   }
   &__call {
     text-align: right;
+    cursor: pointer;
   }
 }
 
@@ -106,6 +107,11 @@
   font-size: 64px;
   line-height: 0.969em;
   color: $c-text-primary;
+
+  & p:first-child {
+    font-family: 'Philosopher';
+    color: $c-green;
+  }
 }
 .head-content__sub-title {
   max-width: 534px;
@@ -139,27 +145,38 @@
 }
 .head-content__items {
   display: flex;
-  flex-wrap: wrap;
-  margin: -24px 0 0 -24px;
+  justify-content: space-evenly;
+  padding: 37px 0 37px 0;
 }
 .head-item {
-  padding: 24px 0 0 16px;
-  width: 33.333%;
-  position: relative;
+  display: flex;
+  width: 258px;
+  padding: 0px 32px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   &__text {
-    text-align: left;
-    padding-left: 46px;
-    font-family: Franklin Gothic Book;
+    font-family: Franklin Gothic Demi;
     font-size: 18px;
     color: $c-text-third;
     line-height: 1.111em;
+    text-align: center;
   }
-  &::before{
-    content: '';
-    position: absolute;
-    width: 36px;
-    height: 36px;
-    background-image: url("../img/item-leaf.svg");
-  }
+}
+.head-item__icon {
+  position: relative;
+  margin-bottom: 12px;
+  width: 64px;
+  height: 64px;
+  background-color: #EEEEEE;
+  border-radius: 100%;
+}
+.icon-features {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }

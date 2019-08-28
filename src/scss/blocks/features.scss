@@ -39,11 +39,32 @@
   width: 57px;
   height: 54px;
   margin-right: 15px;
-  background: url("../img/green-spot.svg") no-repeat;
   font-family: Franklin Gothic Demi;
   font-size: 26px;
   line-height: 1.154em;
   color: $c-white;
+
+  &--01 {
+    background: url("../img/green-dot-1.svg") no-repeat;
+  }
+  &--02 {
+    background: url("../img/green-dot-2.svg") no-repeat;
+  }
+  &--03 {
+    background: url("../img/green-dot-03.svg") no-repeat;
+  }
+  &--04 {
+      background: url("../img/green-dot-04.svg") no-repeat;
+  }
+  &--05 {
+      background: url("../img/green-dot-05.svg") no-repeat;
+  }
+  &--06 {
+    background: url("../img/green-dot-3.svg") no-repeat;
+  }
+  &--07 {
+    background: url("../img/green-dot-07.svg") no-repeat;
+  }
 }
 .features-item__text {
   width: 80%;
