@@ -226,9 +226,25 @@
 }
 .swiper-button-prev--galr {
   left: 8.54%;
+  top: 59%;
+  display: none;
+  @media ($m-xxm) {
+    display: block;
+  }
+  @media ($m-m) {
+    top: 50%;
+  }
 }
 .swiper-button-next--galr {
   right: 8.54%;
+  top: 59%;
+  display: none;
+  @media ($m-xxm) {
+    display: block;
+  }
+  @media ($m-m) {
+    top: 50%;
+  }
 }
 .galery-slider > .swiper-pagination {
   bottom: 72px;

@@ -101,8 +101,8 @@ let swiperBenefits = new Swiper('.benefits__slider', {
 
 let galerySlider = new Swiper('.galery-slider', {
     speed:400,
-    slidesPerView: 4,
-    spaceBetween: 24,
+    slidesPerView: 1,
+    spaceBetween: 16,
     loop: true,
     pagination: {
         el: '.swiper-pagination',
@@ -112,6 +112,21 @@ let galerySlider = new Swiper('.galery-slider', {
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
+    },
+    breakpointsInverse: true,
+    breakpoints: {
+        414: {
+            slidesPerView: 2,
+            spaceBetween: 16,
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 24,
+        },
+        992: {
+            slidesPerView: 4,
+            spaceBetween: 24,
+        }
     }
 });
 

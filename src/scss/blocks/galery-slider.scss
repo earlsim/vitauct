@@ -1,9 +1,13 @@
 .galery-slider {
-  margin: 0 13.75%;
+  margin: 0 16px;
   padding-bottom: 144px;
   display: flex;
   align-self: center;
   overflow: hidden;
+
+  @media ($m-xs) {
+    margin: 0 13.75%;
+  }
 }
 .galery-slider__slide {
   border-radius: 20px;

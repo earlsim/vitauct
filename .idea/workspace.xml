@@ -5,26 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/accept-healing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/accept-healing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/benefits.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/benefits.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/features.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/features.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/five-steps.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/five-steps.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/healing-consist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/healing-consist.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/parasit-2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/parasit-2.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/galery-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/galery-slider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/people-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/people-slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/reasones-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/reasones-grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/shield.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/shield.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/swiper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/video-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/video-block.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/warning-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/warning-grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/system/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/system/_vars.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -93,24 +77,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="89" column="10" lean-forward="true" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+            <state relative-caret-position="251">
+              <caret line="120" column="10" lean-forward="true" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
                 <element signature="e#1088#1352#0" />
+                <element signature="e#2109#2206#0" />
+                <element signature="e#2224#2309#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="benefits.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scss/blocks/benefits.scss">
+      <file leaf-file-name="galery-slider.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/blocks/galery-slider.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="benefits.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/blocks/benefits.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -124,20 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="features.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/blocks/features.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="102" column="14" lean-forward="true" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="swiper.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/blocks/swiper.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="188" column="16" lean-forward="true" selection-start-line="188" selection-start-column="16" selection-end-line="188" selection-end-column="16" />
+            <state relative-caret-position="319">
+              <caret line="239" column="11" lean-forward="true" selection-start-line="239" selection-start-column="11" selection-end-line="239" selection-end-column="11" />
               <folding>
                 <element signature="e#3432#3456#0" />
               </folding>
@@ -148,8 +134,8 @@
       <file leaf-file-name="people-slider.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/blocks/people-slider.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-327">
-              <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+            <state relative-caret-position="278">
+              <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -179,8 +165,8 @@
       <file leaf-file-name="_vars.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/system/_vars.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="5" selection-start-line="3" selection-end-line="3" selection-end-column="5" />
+            <state relative-caret-position="68">
+              <caret line="4" column="4" selection-start-line="4" selection-end-line="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -198,8 +184,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>healing-title</find>
-      <find>healing-text</find>
       <find>plant</find>
       <find>spoon</find>
       <find>container</find>
@@ -217,17 +201,19 @@
       <find>.swiper-pagination--video</find>
       <find>.swiper-button-prev--people-slider</find>
       <find>.people-slide__img</find>
-      <find>people-sli</find>
       <find>people-co</find>
       <find>people-slider</find>
-      <find>.people-slide__pic</find>
-      <find>people-slide</find>
       <find>accept-healing</find>
       <find>form-row</find>
       <find>conta</find>
       <find>faq</find>
       <find>.benefits__slider</find>
       <find>benefits__slider</find>
+      <find>.people-slide__pic</find>
+      <find>people-slide</find>
+      <find>.swiper-button-prev--galr {</find>
+      <find>people-sli</find>
+      <find>galery-slider</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -244,7 +230,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/scss/blocks/faq.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/section-splited.scss" />
-        <option value="$PROJECT_DIR$/src/scss/blocks/galery-slider.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/buy-block.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/complex.scss" />
         <option value="$PROJECT_DIR$/src/scss/system/_fonts.scss" />
@@ -261,13 +246,14 @@
         <option value="$PROJECT_DIR$/src/scss/blocks/five-steps.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/base.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/video-block.scss" />
-        <option value="$PROJECT_DIR$/src/scss/blocks/swiper.scss" />
-        <option value="$PROJECT_DIR$/src/scss/blocks/people-slider.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/accept-healing.scss" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/scss/blocks/about.scss" />
-        <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/scss/blocks/benefits.scss" />
+        <option value="$PROJECT_DIR$/src/scss/blocks/people-slider.scss" />
+        <option value="$PROJECT_DIR$/src/scss/blocks/galery-slider.scss" />
+        <option value="$PROJECT_DIR$/src/scss/blocks/swiper.scss" />
+        <option value="$PROJECT_DIR$/src/js/main.js" />
       </list>
     </option>
   </component>
@@ -282,9 +268,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="280" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -406,7 +392,7 @@
       <workItem from="1566910461817" duration="13612000" />
       <workItem from="1566930379091" duration="6828000" />
       <workItem from="1566993327350" duration="16043000" />
-      <workItem from="1567063032422" duration="28308000" />
+      <workItem from="1567063032422" duration="29695000" />
     </task>
     <task id="LOCAL-00001" summary="21.08">
       <created>1566404404062</created>
@@ -419,7 +405,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185350000" />
+    <option name="totallyTimeSpent" value="186737000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -431,19 +417,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10119048" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20637329" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32994923" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.24027073" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.15228426" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.5397631" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.38071066" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.38659793" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -685,13 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/blocks/galery-slider.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -824,23 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/blocks/swiper.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="188" column="16" lean-forward="true" selection-start-line="188" selection-start-column="16" selection-end-line="188" selection-end-column="16" />
-          <folding>
-            <element signature="e#3432#3456#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/blocks/people-slider.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-327">
-          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/blocks/accept-healing.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
@@ -912,13 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/system/_vars.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="5" selection-start-line="3" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/blocks/about.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -926,21 +881,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/benefits.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="89" column="10" lean-forward="true" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+        <state relative-caret-position="185">
+          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/people-slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/galery-slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/swiper.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="239" column="11" lean-forward="true" selection-start-line="239" selection-start-column="11" selection-end-line="239" selection-end-column="11" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#1088#1352#0" />
+            <element signature="e#3432#3456#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/blocks/benefits.scss">
+    <entry file="file://$PROJECT_DIR$/src/scss/system/_vars.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="120" column="10" lean-forward="true" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#1088#1352#0" />
+            <element signature="e#2109#2206#0" />
+            <element signature="e#2224#2309#0" />
+          </folding>
         </state>
       </provider>
     </entry>
