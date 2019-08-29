@@ -73,6 +73,7 @@
   &--green-second {
 
     background-color: #66A555;
+    padding-bottom: 60px;
 
     &:before {
       content: '';
@@ -138,60 +139,107 @@
   &--1356 {
     max-width: 1356px;
   }
+
+  @media ($m-ml) {
+    padding: 0;
+  }
 }
 
 .block__title {
   padding: 72px 0 56px 0;
   text-align: center;
   font-family: Franklin Gothic Heavy;
-  font-size: 48px;
+  font-size: 34px;
   line-height: 1.292em;
   color: $c-text-primary;
+
+  &--white {
+    color: $c-white;
+  }
+
+  & span {
+    font-family: 'Philosopher';
+  }
 
   &--mw {
     position: relative;
     max-width: 672px;
     margin: 0 auto;
-
+    width: 100%;
 
     &:before {
-      position: absolute;
       display: flex;
       align-items: center;
       justify-content: center;
-      left: -144px;
+      left: -100px;
       bottom: 0;
       top: 0;
-
       content: url("../img/warning.svg");
-
     }
+
     &:after {
-      position: absolute;
       display: flex;
       align-items: center;
       justify-content: center;
       content: url("../img/warning.svg");
-      right: -144px;
+      right: -100px;
       bottom: 0;
       top: 0;
     }
   }
+
   &--pb40 {
     padding-bottom: 40px;
   }
+
   &--pb108 {
     padding-bottom: 108px;
+  }
+
+  @media ($m-xs) {
+    font-size: 48px;
+
+    &--mw {
+      width: 62%;
+
+      &:before,&:after {
+        position: absolute;
+      }
+    }
+  }
+
+  @media ($m-s) {
+    &--mw {
+      &:before {
+        left: -144px;
+      }
+      &:after {
+        right: -144px;
+      }
+    }
   }
 }
 
 .block-section {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-bottom: 50px;
 
+  &--col-rev {
+    flex-direction: column-reverse;
+  }
+
   &:last-child {
     margin-bottom: 68px;
+  }
+
+  @media ($m-s) {
+    flex-direction: row;
+
+    &--col-rev {
+      flex-direction: row;
+    }
   }
 }
 
@@ -232,28 +280,4 @@
     background-color: $c-green;
     opacity: .8;
   }
-}
-
-.video {
-  position: relative;
-  width: 48%;
-  border-radius: 20px;
-  overflow: hidden;
-
-  &--w {
-    width: auto;
-  }
-}
-
-.video:after {
-  content: '';
-  position: absolute;
-  margin: auto;
-  width: 56px;
-  height: 56px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: url("../img/play.svg") no-repeat;
 }

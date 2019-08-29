@@ -7,18 +7,48 @@
   color: $c-white;
 }
 .header_inner {
-  margin-top: 40px;
-  padding:0 80px;
+  margin-top: 20px;
+  padding:0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media ($m-s) {
+    margin-top: 40px;
+    padding:0 80px;
+  }
 }
 .header-left {
 
 }
+
+.header-logo {
+  width: 100%;
+  height: 100%;
+}
+.header-left__logo {
+  width: 98px;
+  height: 31px;
+
+  @media ($m-xs) {
+    width: 192px;
+    height: 62px;
+  }
+}
+
 .header-right {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  color: $c-text-primary;
+
+  @media ($m-s) {
+
+  }
+
+  @media ($m-m) {
+    flex-direction: row;
+    color: $c-white;
+  }
 }
 .head-content {
   z-index: 1;
@@ -29,34 +59,52 @@
   z-index: -1;
   content: '';
   position: absolute;
-  width: 100%;
+  width: 0;
   top: 0;
   bottom: 0;
   left: auto;
   right: 0;
   background: url("../img/green-head-bg.png") no-repeat;
-  background-size: 69.68% 100%;
+  background-size: 100% 100%;
   background-position: right;
+
+  @media ($m-m) {
+    width: 100%;
+  }
+
+  @media ($m-xl) {
+    background-size: 69.68% 100%;
+  }
 }
 .head-content:after {
   z-index: -1;
   content: '';
   position: absolute;
-  width: 100%;
-  height: 92.15%;
+  width: 0;
+  height: 89%;
   top: auto;
   bottom: 0;
   left: auto;
   right: 6.459%;
   background: url("../img/family.png") no-repeat;
-  background-size: 65% auto;
+  background-size: contain;
   background-position: right;
+
+  @media ($m-m) {
+    width: 100%;
+  }
 }
 .head-content__left {
-  padding: 154px 0 70px 80px;
+  padding: 154px 0 20px 20px;
+  max-width: 712px;
+  width: 100%;
 
-  //padding-left: 80px;
-  max-width: 792px;
+  @media ($m-s) {
+    padding: 154px 0 70px 80px;
+  }
+  @media ($m-m) {
+    width: 37%;
+  }
 }
 .header-instructions {
   display: flex;
@@ -66,10 +114,15 @@
   position: relative;
   margin-right: 12px;
   display: inline;
-  width: 44px;
-  height: 44px;
-  background-color: $c-white;
+  width: 22px;
+  height: 22px;
   border-radius: 100%;
+
+  @media ($m-m) {
+    background-color: $c-white;
+    width: 44px;
+    height: 44px;
+  }
 }
 .instruction-logo__img {
   position: absolute;
@@ -83,30 +136,52 @@
 
 }
 .instructions-title {
-  font-size: 20px;
   line-height: 1.300em;
+  font-size: 14px;
+
+  @media ($m-xs) {
+    font-size: 20px;
+
+  }
+
 }
 .instructions-download {
   cursor: pointer;
 }
 .header-telephone {
-  margin-left: 48px;
+  text-align: right;
+
+
   &__tel {
-    font-size: 36px;
+    font-size: 24px;
     line-height: 1.333em;
+    white-space: nowrap;
   }
   &__call {
     text-align: right;
     cursor: pointer;
+  }
+
+  @media ($m-xs) {
+    &__tel {
+      font-size: 36px;
+    }
+  }
+  @media ($m-m) {
+    margin-left: 48px;
   }
 }
 
 .head-content__title {
   margin-bottom: 32px;
   font-family: Franklin Gothic Heavy;
-  font-size: 64px;
+  font-size: 54px;
   line-height: 0.969em;
   color: $c-text-primary;
+
+  @media ($m-xxs) {
+    font-size: 64px;
+  }
 
   & p:first-child {
     font-family: 'Philosopher';
@@ -145,16 +220,18 @@
 }
 .head-content__items {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 37px 0 37px 0;
+  margin: -24px 0 0 -24px;
 }
 .head-item {
   display: flex;
-  width: 258px;
-  padding: 0px 32px;
+  width: 100%;
+  padding: 24px 0 0 24px;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 
   &__text {
     font-family: Franklin Gothic Demi;
@@ -162,6 +239,19 @@
     color: $c-text-third;
     line-height: 1.111em;
     text-align: center;
+  }
+
+  @media ($m-xxm) {
+    width: 50%;
+  }
+  @media ($m-xs) {
+    width: 33.333%;
+  }
+  @media ($m-s) {
+    width: 25%;
+  }
+  @media ($m-m) {
+    width: 20%;
   }
 }
 .head-item__icon {

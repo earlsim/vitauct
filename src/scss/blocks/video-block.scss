@@ -1,7 +1,40 @@
 .video-block {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   margin-bottom: 70px;
+
+  @media ($m-m) {
+    flex-direction: row;
+  }
+}
+.video {
+  position: relative;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  @media ($m-m) {
+    width: 48%;
+    margin-bottom: 0;
+  }
+
+  &--w {
+    width: auto;
+  }
+}
+
+.video:after {
+  content: '';
+  position: absolute;
+  margin: auto;
+  width: 56px;
+  height: 56px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("../img/play.svg") no-repeat;
 }
 
 .video-item__img {

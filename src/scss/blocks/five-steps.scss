@@ -13,9 +13,17 @@
 .five-steps__title {
   margin-bottom: 40px;
   font-family: Franklin Gothic Heavy;
-  font-size: 48px;
+  font-size: 38px;
   line-height: 1.292em;
   color: $c-white;
+
+  @media ($m-xxs) {
+    font-size: 46px;
+  }
+  @media ($m-xxm) {
+    font-size: 48px;
+  }
+
 }
 .five-steps__text {
   font-family: Franklin Gothic Demi;

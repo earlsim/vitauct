@@ -1,7 +1,12 @@
 .about {
   display: flex;
   justify-content: space-between;
+  flex-direction: column-reverse;
   margin-bottom: 56px;
+
+  @media ($m-m) {
+    flex-direction: row;
+  }
 
   &__video {
     display: flex;
@@ -11,9 +16,15 @@
   }
 
   &__info {
-    width: 50%;
+    width: 100%;
     font-family: Franklin Gothic Demi;
     color: $c-white;
+    margin-bottom: 24px;
+
+    @media ($m-m) {
+      width: 50%;
+      margin-bottom: 0;
+    }
   }
 }
 .about-video {
@@ -30,9 +41,15 @@
   line-height: 1.200em;
 
   & p {
-    max-width: 572px;
 
-    &:not(:last-child) {
+
+  }
+
+  @media ($m-m) {
+    p {
+      max-width: 572px;
+    }
+    p:not(:last-child) {
       margin-bottom: 12px;
     }
   }

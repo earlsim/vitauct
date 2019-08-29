@@ -1,9 +1,13 @@
 .footer {
-  padding: 41px 144px 24px 144px;
+  padding: 16px 40px;
   display: flex;
   justify-content: space-between;
   font-family: Franklin Gothic Book;
   color: $c-text-third;
+
+  @media ($m-ml) {
+    padding: 41px 144px 24px 144px;
+  }
 }
 .footer__left {
   width: 50%;

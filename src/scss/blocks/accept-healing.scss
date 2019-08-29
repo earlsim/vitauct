@@ -4,8 +4,12 @@
   align-items: center;
   margin: 0 auto;
   max-width: 1392px;
-  padding: 110px 0 80px 0;
+  padding: 60px 16px 40px 16px;
   color: $c-white;
+
+  @media ($m-s) {
+    padding: 110px 0 80px 0;
+  }
 }
 .accept-title {
   margin-bottom: 8px;
@@ -19,15 +23,23 @@
   font-size: 20px;
   line-height: 1.200em;
 }
+.oreder-form {
+  font-family: Franklin Gothic Book;
+}
 .form-row {
   max-width: 600px;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+
+  @media ($m-xs) {
+    flex-direction: row;
+  }
 }
 .form-input {
   margin-bottom: 38px;
   padding: 18px 16px;
-  width: 48%;
+  width: 100%;
   height: 56px;
   outline: none;
   border: none;
@@ -35,8 +47,13 @@
   color: $c-text-third;
   font-size: 16px;
   line-height: 1.250em;
+
+  @media ($m-xs) {
+    width: 48%;
+  }
 }
 .form-btn {
+  margin: 0 auto;
   width: 196px;
   height: 48px;
   background-color: $c-white;
@@ -46,4 +63,52 @@
   letter-spacing: 1px;
   border-radius: 144px;
   cursor: pointer;
+}
+.form-checkbox {
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  @media ($m-xs) {
+    margin-bottom: 0;
+  }
+}
+.form-checkbox__box {
+  position: absolute;
+  margin: auto;
+  display: inline-block;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+  background-color: $c-white;
+  border-radius: 4px;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 12px;
+    height: 12px;
+    background: url("../img/check.svg") no-repeat center;
+    opacity: 0;
+    transition: opacity .4s;
+
+  }
+}
+.form-checkbox__text {
+  padding-left: 40px;
+}
+
+.form-checkbox__input{
+  display: none;
+}
+.form-checkbox__input:checked ~ .form-checkbox .form-checkbox__box:after {
+  opacity: 1;
 }

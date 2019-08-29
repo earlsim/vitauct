@@ -23,7 +23,11 @@
   position: relative;
   margin-bottom: 88px;
   display: flex;
-  padding-left: 224px;
+
+  @media ($m-m) {
+    padding-left: 224px;
+  }
+
 }
 .plants-slide__img {
   width: 100%;
@@ -115,7 +119,10 @@
 }
 
 .slide-certificate {
+  position: relative;
+  margin: 0 auto;
   max-width: 259px;
+
   &:after {
     content: '';
     position: absolute;
@@ -167,21 +174,26 @@
 }
 //people-slide
 .swiper-pagination--video {
-  bottom: 0 !important;
-  top: 42px;
-  right: 84px;
-  left: auto!important;
   display: flex;
   align-items: flex-end;
   flex-direction: column;
   justify-content: flex-start;
+  bottom: 0 !important;
+  top: 36px;
+  right: 0;
+  left: auto!important;
+  height: 144px;
   width: auto !important;
+
+  @media ($m-xl) {
+    right: 84px;
+  }
 }
 .people-slider > .swiper-pagination-bullets .swiper-pagination-bullet {
-  margin: 24px 0;
+  margin: 12px 0;
 }
 .swiper-button-next--people-slider {
-  right: 70px;
+  right: 8px;
   bottom: 0;
   top: auto;
   margin: auto;
@@ -189,9 +201,13 @@
   &--b110 {
     bottom: 110px;
   }
+
+  @media ($m-xl) {
+    right: 70px;
+  }
 }
 .swiper-button-prev--people-slider {
-  right: 120px;
+  right: 40px;
   bottom: 0;
   top: auto;
   left: auto;
@@ -199,6 +215,10 @@
 
   &--b110 {
     bottom: 110px;
+  }
+
+  @media ($m-xl) {
+    right: 120px;
   }
 }
 .swiper-button-prev--galr, .swiper-button-next--galr {

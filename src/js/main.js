@@ -12,21 +12,52 @@ let swiper9th = new Swiper('.swiper-9ka', {
 });
 let swiperPlants = new Swiper('.plants-slider-container', {
     speed: 600,
-    slidesPerView: 3.5,
-    spaceBetween: 24,
+    slidesPerView: 1,
+    spaceBetween: 10,
     loop: true,
+    grabCursor: true,
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
+    },
+    breakpointsInverse: true,
+    breakpoints: {
+        414: {
+            slidesPerView: 1,
+            spaceBetween: 24,
+        },
+        568: {
+            slidesPerView: 3,
+            spaceBetween: 24,
+        },
+        992: {
+            slidesPerView: 4,
+            spaceBetween: 24,
+        }
     }
 });
 let swiperCertificate = new Swiper('.sertificate-slider', {
    speed:600,
-   slidesPerView: 5,
+   slidesPerView: 1,
    spaceBetween: 24,
    pagination: {
         el: '.swiper-pagination-docs',
         clickable: true,
+    },
+    breakpointsInverse: true,
+    breakpoints: {
+        414: {
+            slidesPerView: 2,
+            spaceBetween: 24,
+        },
+        568: {
+            slidesPerView: 3,
+            spaceBetween: 24,
+        },
+        992: {
+            slidesPerView: 5,
+            spaceBetween: 24,
+        }
     }
 });
 let swiperPeople = new Swiper('.people-slider', {
@@ -45,13 +76,27 @@ let swiperPeople = new Swiper('.people-slider', {
 });
 let swiperBenefits = new Swiper('.benefits__slider', {
     speed: 400,
-    slidesPerView: 2,
-    spaceBetween: 26,
+    slidesPerView: 1,
     loop: true,
     grabCursor: true,
     resistance: false,
     loopAdditionalSlides: 6,
     freeModeMomentum: true,
+    breakpointsInverse: true,
+    breakpoints: {
+        414: {
+            slidesPerView: 1,
+            spaceBetween: 26,
+        },
+        568: {
+            slidesPerView: 1,
+            spaceBetween: 26,
+        },
+        992: {
+            slidesPerView: 2,
+            spaceBetween: 26,
+        }
+    }
 });
 
 let galerySlider = new Swiper('.galery-slider', {

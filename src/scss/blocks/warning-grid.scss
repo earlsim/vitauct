@@ -1,18 +1,27 @@
 .warning-grid {
   display: flex;
   flex-wrap: wrap;
-  margin: -96px 0 0 -24px;
+  margin: -48px 0 0 -24px;
+
+  @media ($m-m) {
+    margin: -96px 0 0 -24px;
+  }
 }
 .warning-grid__item {
-  width: 50%;
-  padding: 96px 0 0 24px;
-  height: 416px;
+  width: 100%;
+  padding: 48px 0 0 24px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
+  @media ($m-xs) {
+    width: 50%;
+  }
   @media ($m-m) {
+    padding: 96px 0 0 24px;
+    height: 416px;
     width: 33.3333%;
 }
 }
