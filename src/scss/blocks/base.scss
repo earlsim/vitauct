@@ -53,13 +53,13 @@
   &--green-complex {
     z-index: 1;
     padding-bottom: 74px;
-    background-color: $c-green-second;
+    background-color: $c-green;
+
     color: $c-white;
     position: relative;
 
     &:before {
       z-index: -1;
-      content: '';
       position: absolute;
       top: 0;
       bottom: 0;
@@ -67,6 +67,14 @@
       left: 0;
       background: url("../img/green-oval-bg.svg") no-repeat;
       background-size: 100% 100%;
+    }
+
+    @media ($m-s) {
+      background-color: $c-green-second;
+
+      &:before {
+        content: '';
+      }
     }
   }
 
@@ -126,6 +134,10 @@
   line-height: 1.200em;
   color: $c-text-primary;
 }
+.block-container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
 
 .container {
   margin: 0 auto;
@@ -140,18 +152,25 @@
     max-width: 1356px;
   }
 
-  @media ($m-ml) {
+  @media ($m-xl) {
     padding: 0;
+    &--1400 {
+
+    }
   }
 }
 
 .block__title {
-  padding: 72px 0 56px 0;
+  padding: 72px 0 56px;
   text-align: center;
   font-family: Franklin Gothic Heavy;
   font-size: 34px;
   line-height: 1.292em;
   color: $c-text-primary;
+
+  &--ful-w {
+    padding: 72px 0 56px!important;
+  }
 
   &--white {
     color: $c-white;
@@ -173,7 +192,7 @@
       justify-content: center;
       left: -100px;
       bottom: 0;
-      top: 0;
+      top: 30px;
       content: url("../img/warning.svg");
     }
 
@@ -184,7 +203,7 @@
       content: url("../img/warning.svg");
       right: -100px;
       bottom: 0;
-      top: 0;
+      top: 30px;
     }
   }
 
@@ -218,13 +237,18 @@
       }
     }
   }
+
+  @media ($m-xl) {
+    padding: 72px 136px 56px;
+  }
 }
 
 .block-section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 50px;
+  align-items: center;
+  margin-bottom: 38px;
 
   &--col-rev {
     flex-direction: column-reverse;
@@ -248,11 +272,16 @@
   &:before {
     z-index: -1;
     position: absolute;
-    content: '';
     height: 100%;
     background: url("../img/left-side.svg") no-repeat;
     background-size: 100% 100%;
     width: 66.77%;
+  }
+
+  @media ($m-l) {
+    &:before {
+      content: '';
+    }
   }
 }
 

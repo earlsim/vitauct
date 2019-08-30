@@ -13,6 +13,7 @@
 
   &__portrait {
     width: 100%;
+    margin-bottom: 24px;
   }
   &__content {
     width: 100%;
@@ -24,6 +25,7 @@
 
     &__portrait {
       width: 48%;
+      margin-bottom: 0;
     }
     &__content {
       width: 48%;
@@ -37,12 +39,18 @@
 }
 .people-slide__pic {
   height: 300px;
+  text-align: center;
 
 
   @media ($m-xs) {
     height: 375px;
-    padding-right: 14%;
+
+  }
+
+  @media ($m-m) {
     float: right;
+    padding-right: 14%;
+    text-align: unset;
   }
 }
 .people-slide__img {
@@ -76,6 +84,7 @@
   line-height: 1.200em;
   color: $c-text-secondary;
   overflow: hidden;
+  transition: max-height .6s;
 
   &:before {
     content: '';
@@ -86,6 +95,15 @@
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
   }
 }
+.full-text {
+  max-height: unset;
+  transition: max-height .6s;
+  &:before {
+    content: none;
+  }
+}
+
+
 .people-content__show-more {
   font-size: 16px;
   line-height: 1.250em;

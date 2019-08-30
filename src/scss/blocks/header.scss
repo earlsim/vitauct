@@ -64,8 +64,8 @@
   bottom: 0;
   left: auto;
   right: 0;
-  background: url("../img/green-head-bg.png") no-repeat;
-  background-size: 100% 100%;
+  background: url("../img/1.png") no-repeat;
+  background-size: cover;
   background-position: right;
 
   @media ($m-m) {
@@ -73,7 +73,7 @@
   }
 
   @media ($m-xl) {
-    background-size: 69.68% 100%;
+    background-size: contain;
   }
 }
 .head-content:after {
@@ -96,14 +96,13 @@
 }
 .head-content__left {
   padding: 154px 0 20px 20px;
-  max-width: 712px;
   width: 100%;
 
   @media ($m-s) {
-    padding: 154px 0 70px 80px;
+    padding: 210px 0 70px 80px;
   }
   @media ($m-m) {
-    width: 37%;
+    width: 41.25%;
   }
 }
 .header-instructions {
@@ -160,6 +159,7 @@
   &__call {
     text-align: right;
     cursor: pointer;
+    line-height: 1.250em;
   }
 
   @media ($m-xs) {
@@ -168,7 +168,7 @@
     }
   }
   @media ($m-m) {
-    margin-left: 48px;
+    margin-left: 64px;
   }
 }
 
@@ -181,6 +181,7 @@
 
   @media ($m-xxs) {
     font-size: 64px;
+    padding-right: 76px;
   }
 
   & p:first-child {
@@ -189,11 +190,10 @@
   }
 }
 .head-content__sub-title {
-  max-width: 534px;
   margin-bottom: 40px;
   font-family: Franklin Gothic Demi;
-  font-size: 20px;
-  line-height: 1.200em;
+  font-size: 36px;
+  line-height: 1.139em;
   color: $c-text-secondary;
 }
 .btn {
@@ -222,7 +222,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 37px 0 37px 0;
+  padding: 38px 0;
   margin: -24px 0 0 -24px;
 }
 .head-item {
@@ -234,10 +234,11 @@
   justify-content: flex-start;
 
   &__text {
+    padding: 0 13px;
     font-family: Franklin Gothic Demi;
-    font-size: 18px;
+    font-size: 20px;
     color: $c-text-third;
-    line-height: 1.111em;
+    line-height: 1em;
     text-align: center;
   }
 
@@ -256,9 +257,9 @@
 }
 .head-item__icon {
   position: relative;
-  margin-bottom: 12px;
-  width: 64px;
-  height: 64px;
+  margin-bottom: 16px;
+  width: 80px;
+  height: 80px;
   background-color: #EEEEEE;
   border-radius: 100%;
 }
@@ -269,4 +270,9 @@
   bottom: 0;
   right: 0;
   left: 0;
+}
+.head-mobile-bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }

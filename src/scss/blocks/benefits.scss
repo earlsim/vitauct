@@ -20,11 +20,16 @@
 }
 .benefits__slider {
   overflow: hidden;
-  width: 100%;
-  @media ($m-m) {
-    margin-left: -40%;
+  width: 96%;
+  margin-left: 0 auto;
+
+  @media ($m-s) {
     overflow: visible;
+    width: 50%;
+  }
+  @media ($m-xl) {
     width: 31%;
+
   }
 
 }
@@ -42,7 +47,9 @@
   opacity: .75;
 }
 .benefits-slide.swiper-slide-next {
-  opacity: 1;
+  @media ($m-xl) {
+    opacity: 1;
+  }
 }
 .benefits-slide.swiper-slide-active {
   opacity: 1;

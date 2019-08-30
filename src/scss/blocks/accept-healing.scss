@@ -14,8 +14,12 @@
 .accept-title {
   margin-bottom: 8px;
   font-family: Franklin Gothic Heavy;
-  font-size: 48px;
+  font-size: 42px;
   line-height: 1.292em;
+
+  @media ($m-xxs) {
+    font-size: 48px;
+  }
 }
 .accept-subtitle {
   margin-bottom: 32px;

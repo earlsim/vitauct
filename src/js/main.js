@@ -16,6 +16,8 @@ let swiperPlants = new Swiper('.plants-slider-container', {
     spaceBetween: 10,
     loop: true,
     grabCursor: true,
+    watchSlidesProgress: true,
+    watchSlidesVisibility: true,
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -27,11 +29,11 @@ let swiperPlants = new Swiper('.plants-slider-container', {
             spaceBetween: 24,
         },
         568: {
-            slidesPerView: 3,
+            slidesPerView: 1,
             spaceBetween: 24,
         },
         992: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             spaceBetween: 24,
         }
     }
@@ -61,7 +63,7 @@ let swiperCertificate = new Swiper('.sertificate-slider', {
     }
 });
 let swiperPeople = new Swiper('.people-slider', {
-   speed:400,
+   speed: 600,
    slidesPerView: 1,
     pagination: {
         el: '.swiper-pagination--video',
@@ -75,12 +77,14 @@ let swiperPeople = new Swiper('.people-slider', {
     }
 });
 let swiperBenefits = new Swiper('.benefits__slider', {
-    speed: 400,
+    speed: 600,
     slidesPerView: 1,
     loop: true,
     grabCursor: true,
     resistance: false,
     loopAdditionalSlides: 6,
+    watchSlidesProgress: true,
+    watchSlidesVisibility: true,
     freeModeMomentum: true,
     breakpointsInverse: true,
     breakpoints: {
@@ -88,11 +92,7 @@ let swiperBenefits = new Swiper('.benefits__slider', {
             slidesPerView: 1,
             spaceBetween: 26,
         },
-        568: {
-            slidesPerView: 1,
-            spaceBetween: 26,
-        },
-        992: {
+        1440: {
             slidesPerView: 2,
             spaceBetween: 26,
         }
@@ -100,7 +100,7 @@ let swiperBenefits = new Swiper('.benefits__slider', {
 });
 
 let galerySlider = new Swiper('.galery-slider', {
-    speed:400,
+    speed: 600,
     slidesPerView: 1,
     spaceBetween: 16,
     loop: true,
@@ -130,6 +130,23 @@ let galerySlider = new Swiper('.galery-slider', {
     }
 });
 
+//mobile-slider
+let mobileSlider = new Swiper('.mobile-slider-9steps', {
+    speed: 600,
+    slidesPerView: 1,
+    spaceBetween: 24,
+    breakpointsInverse: true,
+    loop: true,
+    breakpoints: {
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 24,
+        },
+        992: {
+            slidesPerView: 3,
+        }
+    }
+});
 //legacy :(
 
 $('.js-faq').click( function () {
@@ -137,9 +154,9 @@ $('.js-faq').click( function () {
     $(this).closest('.faq-item').find('.js-faq-text').toggle(200);
 });
 $('.js-spl-item').click(function () {
-
+        $(this).stop(false, true);
         if ($(this).hasClass('is-active')) {
-            $(this).removeClass('is-active');
+            // $(this).removeClass('is-active');
         } else {
             let arr = $(this).closest('.splited-left').find('.is-active');
             $.each(arr,function () {
@@ -148,7 +165,29 @@ $('.js-spl-item').click(function () {
             $(this).addClass('is-active');
         }
         let container = $('.js-chng-txt');
+
+        let ChngTitle = $('.js-chng-title');
+        let title = $(this).text();
+
         let txt = $(this).siblings('.hidden-text').text();
-        container.text(txt);
+        ChngTitle.fadeOut(600);
+        container.fadeOut(600);
+        setTimeout(
+            function () {
+                ChngTitle.text(title);
+                container.text(txt);
+            },600
+        );
+        ChngTitle.fadeIn();
+        container.fadeIn();
     }
 );
+$('.js-show-more').click(function () {
+    $(this).siblings('.js-text').toggleClass('full-text');
+    if ($(this).text()=="Показать полностью") {
+        $(this).text('Скрыть');
+    } else {
+        $(this).text('Показать полностью');
+    }
+
+});

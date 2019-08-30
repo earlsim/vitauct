@@ -1,22 +1,45 @@
 .footer {
-  padding: 16px 40px;
+  padding: 16px 20px;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   font-family: Franklin Gothic Book;
   color: $c-text-third;
 
+  @media ($m-xs) {
+    padding: 16px 40px;
+    flex-direction: row;
+  }
   @media ($m-ml) {
     padding: 41px 144px 24px 144px;
   }
 }
 .footer__left {
-  width: 50%;
+  width: 100%;
+  @media ($m-xs) {
+    width: 50%;
+  }
 }
 .footer__right {
-  width: 50%;
+  width: 100%;
+  @media ($m-xs) {
+    width: 50%;
+  }
 }
 .footer-left__logo {
-  margin-bottom: 46px;
+  width: 98px;
+  height: 32px;
+  margin-bottom: 24px;
+
+  img {
+    width: 100%;
+  }
+
+  @media ($m-xs) {
+    width: 196px;
+    height: 64px;
+    margin-bottom: 46px;
+  }
 }
 .footer-left__links {
   display: flex;
@@ -29,20 +52,44 @@
 }
 .footer__right {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
+
+  justify-content: space-between;
+  flex-direction: column;
+
+  @media ($m-xs) {
+    align-items: flex-end;
+  }
+
+  @media ($m-m) {
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: row;
+  }
 }
 .footer-instruction__title {
   display: block;
   margin-bottom: 2px;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 1.250em;
+
+
+  @media ($m-xs) {
+    font-size: 24px;
+    white-space: nowrap;
+  }
 }
 .footer-right__phone {
-  margin-left: 64px;
+
+  @media ($m-m) {
+    margin-left: 64px;
+  }
 }
 .footer-instruction__link {
   display: block;
-  text-align: right;
+
   color: $c-green;
+
+  @media ($m-xs) {
+    text-align: right;
+  }
 }

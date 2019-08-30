@@ -18,9 +18,16 @@
   margin: 44px 0 40px 0;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+
+  @media ($m-s) {
+    flex-direction: row;
+    align-items: unset;
+  }
 }
 .complex-item {
-  margin-right: 7.2553%;
+  margin-bottom: 7.2553%;
   padding: 24px 14px;
   max-width: 330px;
   display: flex;
@@ -30,7 +37,16 @@
   border-radius: 20px;
 
   &:last-child {
-    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  @media ($m-s) {
+    margin-bottom: 0;
+    margin-right: 7.2553%;
+
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }
 
@@ -40,8 +56,8 @@
   &:after {
     content: attr(data-qnt);
     position: absolute;
-    width: 87px;
-    height: 87px;
+    width: 64px;
+    height: 64px;
     top: 11px;
     right: 0;
     display: flex;
@@ -52,6 +68,13 @@
     line-height: 1.139em;
     border-radius: 100%;
     background-color: $c-red;
+  }
+
+  @media ($m-xs) {
+    &:after {
+      width: 87px;
+      height: 87px;
+    }
   }
 }
 
@@ -113,7 +136,8 @@
   padding: 26px 34px 20px 36px;
   text-align: center;
   max-width: 374px;
-  background: url("../img/shipping-bg.svg");
+  background: url("../img/shipping-bg.svg") no-repeat;
+  background-size: 100% 100%;
   font-family: Franklin Gothic Demi;
 }
 .complex-shipping__title {

@@ -20,12 +20,14 @@
   overflow: hidden;
 }
 .plants-slider-container {
+  width: 96%;
+  margin: 0 auto;
   position: relative;
   margin-bottom: 88px;
   display: flex;
 
   @media ($m-m) {
-    padding-left: 224px;
+    width: 72.5%;
   }
 
 }
@@ -39,6 +41,11 @@
   align-items: center;
   align-self: baseline;
   height: 100%;
+  opacity: .25;
+  transition: opacity .4s;
+}
+.swiper-slide-visible.swiper-plant-slide {
+  opacity: 1;
 }
 .swiper-plant-slide__img {
   margin-bottom: 16px;
@@ -174,7 +181,7 @@
 }
 //people-slide
 .swiper-pagination--video {
-  display: flex;
+  display: none;
   align-items: flex-end;
   flex-direction: column;
   justify-content: flex-start;
@@ -185,6 +192,9 @@
   height: 144px;
   width: auto !important;
 
+  @media ($m-xs) {
+    display: flex;
+  }
   @media ($m-xl) {
     right: 84px;
   }
@@ -228,7 +238,8 @@
   left: 8.54%;
   top: 59%;
   display: none;
-  @media ($m-xxm) {
+
+  @media ($m-s) {
     display: block;
   }
   @media ($m-m) {
@@ -239,7 +250,8 @@
   right: 8.54%;
   top: 59%;
   display: none;
-  @media ($m-xxm) {
+
+  @media ($m-s) {
     display: block;
   }
   @media ($m-m) {
