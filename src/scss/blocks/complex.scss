@@ -119,6 +119,10 @@
   color: $c-white;
   border-radius: 144px;
   cursor: pointer;
+  transition: background-color .4s;
+  &:hover {
+    background-color: $c-green-hover;
+  }
 }
 .complex-order {
   margin-bottom: 22px;

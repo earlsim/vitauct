@@ -67,6 +67,11 @@
   letter-spacing: 1px;
   border-radius: 144px;
   cursor: pointer;
+  transition: background-color .4s;
+
+  &:hover {
+    background-color: $c-yellow-hover;
+  }
 }
 .form-checkbox {
   position: relative;

@@ -150,8 +150,8 @@ let mobileSlider = new Swiper('.mobile-slider-9steps', {
 //legacy :(
 
 $('.js-faq').click( function () {
-    $(this).closest('.faq-item').toggleClass('is-active');
-    $(this).closest('.faq-item').find('.js-faq-text').toggle(200);
+    $(this).find('.faq-item').toggleClass('is-active');
+    $(this).find('.faq-item').find('.js-faq-text').toggle(200);
 });
 $('.js-spl-item').click(function () {
         $(this).stop(false, true);

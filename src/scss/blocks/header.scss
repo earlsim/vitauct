@@ -190,7 +190,7 @@
   }
 }
 .head-content__sub-title {
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   font-family: Franklin Gothic Demi;
   font-size: 36px;
   line-height: 1.139em;
@@ -208,15 +208,22 @@
   background-color: $c-yellow;
   border-radius: 144px;
   cursor: pointer;
+  transition:  all .4s;
 
   &--head {
-  width: 265px;
+  width: 200px;
   height: 48px;
+
+    &:hover {
+      background-color: $c-yellow-hover-head;
+      //color: $c-text-pale;
+    }
   }
   &--healing {
     width: 196px;
     height: 48px;
   }
+
 }
 .head-content__items {
   display: flex;

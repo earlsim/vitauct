@@ -120,6 +120,10 @@
     padding-bottom: 64px;
   }
 
+  &--pb148 {
+    padding-bottom: 148px;
+  }
+
   &--pb180 {
     padding-bottom: 180px;
   }
@@ -137,6 +141,10 @@
 .block-container {
   max-width: 1170px;
   margin: 0 auto;
+
+  &--mw1110 {
+    max-width: 1110px;
+  }
 }
 
 .container {
@@ -168,6 +176,10 @@
   line-height: 1.292em;
   color: $c-text-primary;
 
+  &--pb16 {
+    padding-bottom: 16px;
+  }
+
   &--ful-w {
     padding: 72px 0 56px!important;
   }
@@ -192,7 +204,7 @@
       justify-content: center;
       left: -100px;
       bottom: 0;
-      top: 30px;
+      top: 34px;
       content: url("../img/warning.svg");
     }
 
@@ -203,7 +215,7 @@
       content: url("../img/warning.svg");
       right: -100px;
       bottom: 0;
-      top: 30px;
+      top: 34px;
     }
   }
 
@@ -228,6 +240,7 @@
   }
 
   @media ($m-s) {
+
     &--mw {
       &:before {
         left: -144px;
@@ -239,7 +252,10 @@
   }
 
   @media ($m-xl) {
-    padding: 72px 136px 56px;
+    &--p136 {
+      padding: 72px 136px 56px;
+    }
+
   }
 }
 
@@ -250,19 +266,30 @@
   align-items: center;
   margin-bottom: 38px;
 
+  &--fs {
+    align-items: flex-start;
+  }
+  &--mb8 {
+    margin-bottom: 8px;
+  }
+
   &--col-rev {
     flex-direction: column-reverse;
   }
 
-  &:last-child {
-    margin-bottom: 68px;
-  }
 
   @media ($m-s) {
     flex-direction: row;
 
     &--col-rev {
       flex-direction: row;
+    }
+  }
+
+  @media ($m-l) {
+
+    &--m {
+      margin: 0 -52px 0 -52px;
     }
   }
 }
