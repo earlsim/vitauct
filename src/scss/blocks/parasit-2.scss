@@ -49,18 +49,24 @@
 .section-title {
   margin-bottom: 16px;
   font-family: Franklin Gothic Demi;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.333em;
   color: $c-text-primary;
+
+
+  @media ($m-s) {
+    font-size: 36px;
+  }
 }
 .section-text {
   font-family: Franklin Gothic Book;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.200em;
   color: $c-text-third;
 
   @media ($m-s) {
     flex-direction: row;
+    font-size: 20px;
   }
 }
 

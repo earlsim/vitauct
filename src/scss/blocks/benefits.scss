@@ -14,14 +14,18 @@
 .benefits__title {
   margin-bottom: 33px;
   font-family: Franklin Gothic Demi;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.333em;
   color: $c-white;
+
+  @media ($m-s) {
+    font-size: 36px;
+  }
 }
 .benefits__slider {
-  overflow: hidden;
-  width: 96%;
-  margin-left: 0 auto;
+
+  width: 90%;
+  margin: 0 auto;
 
   @media ($m-s) {
     overflow: visible;

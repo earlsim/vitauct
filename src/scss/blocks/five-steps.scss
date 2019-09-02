@@ -1,11 +1,13 @@
 .five-steps {
-  padding: 160px 0 120px 0;
+  padding: 64px 0;
   background-color: $c-gray;
   background: url("../img/5-steps.png") $c-gray no-repeat center;
   background-size: cover;
   background-position: top;
 
-  //@media ($)
+  @media ($m-s) {
+    padding: 160px 0 120px 0;
+  }
 }
 .five-steps-container {
   max-width: 740px;
@@ -15,21 +17,24 @@
 .five-steps__title {
   margin-bottom: 40px;
   font-family: Franklin Gothic Heavy;
-  font-size: 38px;
+  font-size: 28px;
   line-height: 1.292em;
   color: $c-white;
 
-  @media ($m-xxs) {
-    font-size: 46px;
-  }
-  @media ($m-xxm) {
+  @media ($m-xs) {
     font-size: 48px;
   }
 
 }
 .five-steps__text {
+  padding: 0 16px;
   font-family: Franklin Gothic Demi;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.200em;
   color: $c-white;
+
+  @media ($m-s) {
+    padding: 0;
+    font-size: 20px;
+  }
 }

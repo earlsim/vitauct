@@ -95,7 +95,7 @@
   }
 }
 .head-content__left {
-  padding: 154px 0 20px 20px;
+  padding: 110px 20px 20px 20px;
   width: 100%;
 
   @media ($m-s) {
@@ -106,9 +106,29 @@
   }
 }
 .header-instructions {
+  display: none;
+  align-items: center;
+  justify-content: flex-end;
+
+  @media ($m-xs) {
+    display: flex;
+  }
+}
+
+.mobile-instruction {
   display: flex;
   align-items: center;
+  font-family: Franklin Gothic Demi;
+
+  @media ($m-xs) {
+    display: none;
+  }
 }
+
+.mobile-instructions__link {
+  color: $c-text-secondary;
+}
+
 .header-instructions__logo {
   position: relative;
   margin-right: 12px;
@@ -122,6 +142,12 @@
     width: 44px;
     height: 44px;
   }
+}
+
+.instructions-link {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 .instruction-logo__img {
   position: absolute;
@@ -152,7 +178,7 @@
 
 
   &__tel {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.333em;
     white-space: nowrap;
   }
@@ -175,11 +201,11 @@
 .head-content__title {
   margin-bottom: 32px;
   font-family: Franklin Gothic Heavy;
-  font-size: 54px;
+  font-size: 48px;
   line-height: 0.969em;
   color: $c-text-primary;
 
-  @media ($m-xxs) {
+  @media ($m-xs) {
     font-size: 64px;
     padding-right: 76px;
   }
@@ -192,12 +218,16 @@
 .head-content__sub-title {
   margin-bottom: 32px;
   font-family: Franklin Gothic Demi;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.139em;
   color: $c-text-secondary;
+
+  @media ($m-s) {
+    font-size: 36px;
+  }
 }
 .btn {
-  margin-bottom: 50px;
+  margin-bottom: 36px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -211,17 +241,31 @@
   transition:  all .4s;
 
   &--head {
-  width: 200px;
+  width: 100%;
   height: 48px;
 
     &:hover {
       background-color: $c-yellow-hover-head;
-      //color: $c-text-pale;
     }
   }
+
   &--healing {
-    width: 196px;
+    width: 100%;
     height: 48px;
+
+    &:hover {
+      background-color: $c-yellow-hover-head;
+      width: 196px;
+    }
+  }
+
+  @media($m-xs) {
+
+    margin-bottom: 50px;
+
+    &--head {
+      width: 200px;
+    }
   }
 
 }

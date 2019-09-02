@@ -13,7 +13,7 @@ let swiper9th = new Swiper('.swiper-9ka', {
 let swiperPlants = new Swiper('.plants-slider-container', {
     speed: 600,
     slidesPerView: 1,
-    spaceBetween: 10,
+    spaceBetween: 6,
     loop: true,
     grabCursor: true,
     watchSlidesProgress: true,
@@ -26,11 +26,11 @@ let swiperPlants = new Swiper('.plants-slider-container', {
     breakpoints: {
         414: {
             slidesPerView: 1,
-            spaceBetween: 24,
+            spaceBetween: 8,
         },
         568: {
             slidesPerView: 1,
-            spaceBetween: 24,
+            spaceBetween: 8,
         },
         992: {
             slidesPerView: 3,
@@ -41,7 +41,10 @@ let swiperPlants = new Swiper('.plants-slider-container', {
 let swiperCertificate = new Swiper('.sertificate-slider', {
    speed:600,
    slidesPerView: 1,
-   spaceBetween: 24,
+   spaceBetween: 8,
+   loop: true,
+   dynamicBullets: true,
+   dynamicMainBullets: 3,
    pagination: {
         el: '.swiper-pagination-docs',
         clickable: true,
@@ -49,12 +52,12 @@ let swiperCertificate = new Swiper('.sertificate-slider', {
     breakpointsInverse: true,
     breakpoints: {
         414: {
-            slidesPerView: 2,
-            spaceBetween: 24,
+            slidesPerView: 1,
+            spaceBetween: 6,
         },
         568: {
             slidesPerView: 3,
-            spaceBetween: 24,
+            spaceBetween: 6,
         },
         992: {
             slidesPerView: 5,
@@ -79,6 +82,7 @@ let swiperPeople = new Swiper('.people-slider', {
 let swiperBenefits = new Swiper('.benefits__slider', {
     speed: 600,
     slidesPerView: 1,
+    spaceBetween: 6,
     loop: true,
     grabCursor: true,
     resistance: false,
@@ -90,7 +94,7 @@ let swiperBenefits = new Swiper('.benefits__slider', {
     breakpoints: {
         414: {
             slidesPerView: 1,
-            spaceBetween: 26,
+            spaceBetween: 8,
         },
         1440: {
             slidesPerView: 2,
@@ -134,7 +138,7 @@ let galerySlider = new Swiper('.galery-slider', {
 let mobileSlider = new Swiper('.mobile-slider-9steps', {
     speed: 600,
     slidesPerView: 1,
-    spaceBetween: 24,
+    spaceBetween: 6,
     breakpointsInverse: true,
     loop: true,
     breakpoints: {

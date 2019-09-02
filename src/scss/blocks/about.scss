@@ -2,8 +2,11 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column-reverse;
-  margin-bottom: 56px;
+  margin-bottom: 36px;
 
+  @media ($m-s) {
+    margin-bottom: 56px;
+  }
   @media ($m-m) {
     flex-direction: row;
   }
@@ -33,11 +36,16 @@
 }
 .about-info__title {
   margin-bottom: 16px;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.333em;
+
+  @media ($m-s) {
+    font-size: 36px;
+    max-width: 600px;
+  }
 }
 .about-info__text {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.200em;
 
   & p {
@@ -45,6 +53,9 @@
 
   }
 
+  @media ($m-s) {
+    font-size: 20px;
+  }
   @media ($m-m) {
     p {
       max-width: 572px;

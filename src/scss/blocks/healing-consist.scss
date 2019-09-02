@@ -4,16 +4,18 @@
   flex-direction: column-reverse;
   max-width: 1150px;
   margin: 0 auto;
-  padding-bottom: 122px;
+  padding-bottom: 100px;
 
   @media ($m-s) {
     flex-direction: row;
+    padding-bottom: 122px;
   }
 }
 .healing-consist__img {
-  width: 100%;
+  display: none;
 
   @media ($m-s) {
+    display: block;
     width: 40%;
   }
 }
@@ -23,22 +25,28 @@
 .healing-consist__content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-
-  //justify-content: space-evenly;
+  align-items: flex-start;
   width: 100%;
 
   @media ($m-s) {
     width: 48.7%;
-    align-items: flex-start;
   }
 }
 .healing-title {
   margin-bottom: 16px;
   font-family: Franklin Gothic Demi;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.333em;
   color: $c-text-primary;
+  text-align: left;
+
+  @media ($m-xs) {
+    font-size: 36px;
+  }
+
+  @media ($m-s) {
+    text-align: center;
+  }
 }
 .healing-text {
   margin-bottom: 24px;
@@ -48,6 +56,19 @@
   color: $c-text-primary;
 }
 .healing-btn {
-  width: 196px;
+  width: 100%;
   height: 48px;
+
+  @media ($m-xs) {
+    width: 196px;
+  }
+}
+.healing-mobile-img {
+  margin-bottom: 24px;
+  img {
+    width: 100%;
+  }
+  @media ($m-s) {
+    display: none;
+  }
 }

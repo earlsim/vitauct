@@ -1,50 +1,71 @@
 .features {
   z-index: 1;
   position: relative;
-  margin-top: 36px;
-  &:before {
 
+
+  @media ($m-s) {
+    margin-top: 36px;
   }
 }
 .features-head__title {
   width: 100%;
   margin-bottom: 16px;
   font-family: Franklin Gothic Heavy;
-  font-size: 48px;
+  font-size: 28px;
   line-height: 1.292em;
   color: $c-text-primary;
 
+  @media ($m-xs) {
+    font-size: 48px;
+  }
   @media ($m-m) {
     width: 40%;
   }
 }
 .features-head__subtitle {
-  margin-bottom: 75px;
+  margin-bottom: 36px;
   width: 100%;
   font-family: Franklin Gothic Demi;
   font-size: 20px;
   line-height: 1.200em;
   color: $c-text-primary;
 
+  @media ($m-s) {
+    margin-bottom: 75px;
+  }
   @media ($m-m) {
     width: 40%;
   }
 }
 .features-body__grid {
+  display: none;
   margin: -40px 0 0 -16px;
-
   width: 100%;
-  display: flex;
   flex-wrap: wrap;
 
+  @media ($m-s) {
+    display: flex;
+  }
   @media ($m-m) {
     width: 53.6%;
+  }
+}
+
+.mobile-features-grid {
+  display: flex;
+  margin: -40px 0 0 -16px;
+  width: 100%;
+  flex-wrap: wrap;
+
+  @media ($m-s) {
+    display: none;
   }
 }
 .features-body__item {
   width: 100%;
   padding: 40px 0 0 16px;
   display: flex;
+  align-items: center;
 
   @media ($m-xs) {
     width: 48.9%;
@@ -61,7 +82,7 @@
   font-size: 26px;
   line-height: 1.154em;
   color: $c-white;
-  background-size: contain;
+  background-size: contain!important;
 
   &--01 {
     background: url("../img/green-dot-1.svg") no-repeat;
@@ -88,9 +109,13 @@
 .features-item__text {
   width: 80%;
   font-family: Franklin Gothic Book;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.200em;
   color: #58585A;
+
+  @media ($m-s) {
+    font-size: 20px;
+  }
 }
 .spoon {
   top: 0;

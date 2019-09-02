@@ -20,11 +20,15 @@
   overflow: hidden;
 }
 .plants-slider-container {
-  width: 96%;
+  width: 90%;
   margin: 0 auto;
   position: relative;
   margin-bottom: 88px;
   display: flex;
+
+  @media ($m-xxm) {
+    width: 86%;
+  }
 
   @media ($m-m) {
     width: 72.5%;
@@ -48,9 +52,14 @@
   opacity: 1;
 }
 .swiper-plant-slide__img {
+  width: 100%;
   margin-bottom: 16px;
-  border-radius: 20px;
+  border-radius: 14px;
   overflow: hidden;
+
+  @media ($m-xs) {
+    border-radius: 20px;
+  }
 }
 .swiper-plant-slide__title {
   margin-bottom: 8px;
@@ -128,7 +137,8 @@
 .slide-certificate {
   position: relative;
   margin: 0 auto;
-  max-width: 259px;
+  width: 100%;
+
 
   &:after {
     content: '';
@@ -141,6 +151,7 @@
     opacity: 0;
     transition: opacity .4s;
   }
+
   &:before {
     content: '';
     position: absolute;
@@ -152,6 +163,7 @@
     opacity: 0;
     transition: opacity .4s;
   }
+
   &:hover {
     cursor: pointer;
     &:after {
@@ -160,6 +172,10 @@
     &:before {
       opacity: 1;
     }
+  }
+
+  @media ($m-xs) {
+    max-width: 259px;
   }
 }
 
@@ -176,9 +192,19 @@
 .sertificate-slider {
   margin: 0 auto;
   max-width: 1391px;
-  padding-bottom: 140px;
-  overflow-x: hidden;
+  width: 80%;
+  padding-bottom: 100px;
+
+
+  @media ($m-xs) {
+    padding-bottom: 140px;
+  }
+  @media ($m-m) {
+
+    overflow-x: hidden;
+  }
 }
+
 //people-slide
 .swiper-pagination--video {
   display: none;

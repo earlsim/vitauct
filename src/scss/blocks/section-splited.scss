@@ -1,10 +1,19 @@
 .section-splited {
-  padding: 72px 0;
+  padding: 36px 0;
   font-family: Franklin Gothic Demi;
+
+  @media ($m-xs) {
+    padding: 72px 0;
+
+  }
 }
 .section-splited__head {
-  margin-bottom: 36px;
+
   text-align: center;
+
+  @media ($m-s) {
+    margin-bottom: 36px;
+  }
   @media ($m-l) {
     text-align: unset;
   }
@@ -37,6 +46,7 @@
   font-size: 36px;
   line-height: 1.333em;
 }
+
 .splited-right__text {
   font-size: 20px;
   line-height: 1.200em;
@@ -78,16 +88,36 @@
 }
 .section__title {
   font-family: Franklin Gothic Demi;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.333em;
   color: $c-white;
+  text-align: left;
+
+  @media ($m-xs) {
+    font-size: 36px;
+  }
+  
+  @media ($m-s) {
+
+  }
 
   @media ($m-l) {
+    max-width: 660px;
     color: $c-text-primary;
   }
 }
+
 //mobile version
+.mobile-slider-9steps {
+  width: 90%;
+  margin: 0 auto;
+  overflow: visible;
+}
+
 .mobile-section__body {
+
+  margin-bottom: 24px;
+  
   @media ($m-l) {
     display: none;
   }
@@ -100,9 +130,20 @@
   flex-direction: column;
   padding: 20px;
   height: 100%;
-  min-height: 124px;
+  min-height: 200px;
   color: #58585a;
   border-radius: 20px;
   background-color: #fff;
   cursor: pointer;
+}
+
+.mobile-slide__title {
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-family: Franklin Gothic Demi;
+  color: $c-text-primary;
+}
+.mobile-slide__text {
+  color: $c-text-secondary;
+  font-family: Franklin Gothic Book;
 }

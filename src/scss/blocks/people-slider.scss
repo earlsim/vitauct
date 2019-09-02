@@ -64,9 +64,13 @@
 }
 .people-content__title {
   font-family: Franklin Gothic Demi;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.333em;
   color: $c-text-primary;
+
+  @media ($m-xs) {
+    font-size: 36px;
+  }
 }
 .people-content__subtitle {
   margin-bottom: 12px;

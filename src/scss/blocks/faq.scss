@@ -1,7 +1,11 @@
 .faq {
   max-width: 1156px;
   margin: 0 auto;
-  padding-bottom: 125px;
+  padding-bottom: 36px;
+
+  @media ($m-s) {
+    padding-bottom: 125px;
+  }
 }
 .faq__question {
 
@@ -35,18 +39,24 @@
 }
 .faq-item__title {
   position: relative;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.300em;
   color: $c-black-20;
   transition:  all .4s;
 
+  @media ($m-s) {
+    font-size: 20px;
+  }
 }
 .faq-item__text {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.333em;
   color: $c-text-third;
   transition: margin-bottom .4s;
 
+  @media ($m-s) {
+    font-size: 18px;
+  }
 }
 .faq-item__text-span {
   display: none;

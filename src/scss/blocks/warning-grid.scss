@@ -8,21 +8,27 @@
   }
 }
 .warning-grid__item {
-  width: 100%;
+  width: 50%;
   padding: 48px 0 0 24px;
-  height: 300px;
+  height: 180px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
+  @media ($m-xxs) {
+    height: 200px;
+  }
   @media ($m-xs) {
     width: 50%;
+    height: 300px;
+  }
+  @media ($m-s) {
+    width: 33.333%;
   }
   @media ($m-m) {
     padding: 96px 0 0 24px;
     height: 416px;
-    width: 33.3333%;
 }
 }
 .warning-item__icon {
@@ -38,7 +44,11 @@
 }
 .warning-item__text {
   font-family: Franklin Gothic Demi;
-  font-size: 24px;
+  font-size: 14px;
   line-height: 1em;
   color: $c-text-primary;
+
+  @media ($m-xs) {
+    font-size: 24px;
+  }
 }
