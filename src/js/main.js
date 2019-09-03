@@ -106,7 +106,7 @@ let swiperBenefits = new Swiper('.benefits__slider', {
 let galerySlider = new Swiper('.galery-slider', {
     speed: 600,
     slidesPerView: 1,
-    spaceBetween: 16,
+    spaceBetween: 6,
     loop: true,
     pagination: {
         el: '.swiper-pagination',
@@ -120,16 +120,19 @@ let galerySlider = new Swiper('.galery-slider', {
     breakpointsInverse: true,
     breakpoints: {
         414: {
-            slidesPerView: 2,
-            spaceBetween: 16,
+            slidesPerView: 1,
+            spaceBetween: 8
         },
         768: {
-            slidesPerView: 3,
-            spaceBetween: 24,
+            slidesPerView: 2,
+            spaceBetween: 24
         },
         992: {
-            slidesPerView: 4,
-            spaceBetween: 24,
+            slidesPerView: 3
+        },
+        1440: {
+            slidesPerView:4,
+            spaceBetween: 24
         }
     }
 });
@@ -174,6 +177,8 @@ $('.js-spl-item').click(function () {
         let title = $(this).text();
 
         let txt = $(this).siblings('.hidden-text').text();
+        ChngTitle.stop(true,true);
+        container.stop(true,true);
         ChngTitle.fadeOut(600);
         container.fadeOut(600);
         setTimeout(

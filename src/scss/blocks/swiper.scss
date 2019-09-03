@@ -235,7 +235,18 @@
   margin: auto;
 
   &--b110 {
-    bottom: 110px;
+    bottom: 20px;
+  }
+  &--b130 {
+    bottom: 60px;
+  }
+  @media ($m-xs) {
+    &--b110 {
+      bottom: 110px;
+    }
+    &--b130 {
+      bottom: 130px;
+    }
   }
 
   @media ($m-xl) {
@@ -250,7 +261,19 @@
   margin: auto;
 
   &--b110 {
-    bottom: 110px;
+    bottom: 20px;
+  }
+  &--b130 {
+    bottom: 60px;
+  }
+
+  @media ($m-xs) {
+    &--b110 {
+      bottom: 110px;
+    }
+    &--b130 {
+      bottom: 130px;
+    }
   }
 
   @media ($m-xl) {
@@ -261,27 +284,33 @@
   //top: 70%;
 }
 .swiper-button-prev--galr {
-  left: 8.54%;
-  top: 59%;
+  left: 2.5%;
+  top: 52%;
   display: none;
 
   @media ($m-s) {
+
+  }
+  @media ($m-xl) {
     display: block;
   }
-  @media ($m-m) {
-    top: 50%;
+  @media ($m-xxl) {
+    left: 164px;
   }
 }
 .swiper-button-next--galr {
-  right: 8.54%;
-  top: 59%;
+  right: 2.5%;
+  top: 52%;
   display: none;
 
   @media ($m-s) {
+
+  }
+  @media ($m-xl) {
     display: block;
   }
-  @media ($m-m) {
-    top: 50%;
+  @media ($m-xxl) {
+    right: 164px;
   }
 }
 .galery-slider > .swiper-pagination {

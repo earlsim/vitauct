@@ -19,7 +19,7 @@
     content: '';
     position: absolute;
     width: 100%;
-    height: 72px;
+    height: 0;
     bottom: 0;
     background: url("../img/white-top-line.svg");
   }
@@ -28,16 +28,13 @@
     background-color: $c-green;
   }
 
-  &--green-bl {
-
-    &:before {
+  &--green-bl:before {
       content: '';
       position: absolute;
       width: 100%;
-      height: 72px;
+      height: 50px;
       bottom: 0;
       background: url("../img/green-curve-top.svg");
-    }
   }
 
   &--oh {
@@ -47,7 +44,7 @@
   &--green-c {
     background: url("../img/big-leaf.png");
     background-position: center;
-    padding: 88px 0 72px 0;
+    padding: 36px 0 36px 0;
   }
 
   &--green-complex {
@@ -104,12 +101,8 @@
 
   }
 
-  &--p50-72 {
-    padding: 50px 0 72px 0;
-  }
-
   &--pb142 {
-    padding-bottom: 142px;
+    padding-bottom: 64px;
   }
 
   &--pb64 {
@@ -124,12 +117,26 @@
     padding-bottom: 100px;
   }
 
+  &--pb72 {
+    padding-bottom: 24px;
+  }
+
   @media ($m-xs) {
+    &--pb72 {
+      padding-bottom: 72px;
+    }
 
     &--pt72 {
       padding-top: 72px;
     }
+    &--pb142 {
+      padding-bottom: 142px;
+    }
+    &--green-c {
+      padding: 88px 0 72px 0;
+    }
   }
+
   @media ($m-s) {
 
     &--pb148 {
@@ -142,6 +149,12 @@
       height: 72px;
     }
     &--green-second:after {
+      height: 72px;
+    }
+    &--wh-ln:before {
+      height: 72px;
+    }
+    &--green-bl:before {
       height: 72px;
     }
   }
@@ -204,6 +217,10 @@
   line-height: 1.292em;
   color: $c-text-primary;
 
+  &--p50-34 {
+    padding: 24px 0 24px 0;
+  }
+
   &--pb16 {
     padding-bottom: 16px;
   }
@@ -247,7 +264,7 @@
   }
 
   &--pb40 {
-    padding-bottom: 40px;
+    padding-bottom: 24px;
   }
 
   &--pb108 {
@@ -260,6 +277,12 @@
 
     &--pb16 {
       padding-bottom: 16px;
+    }
+    &--pb40 {
+      padding-bottom: 40px;
+    }
+    &--p50-43 {
+      padding: 50px 0 43px 0;
     }
 
   }

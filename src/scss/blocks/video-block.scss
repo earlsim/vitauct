@@ -8,6 +8,9 @@
     margin-bottom: 70px;
     flex-direction: row;
   }
+  &--mb0 {
+    margin-bottom: 0;
+  }
 }
 .video {
   position: relative;

@@ -1,12 +1,14 @@
 .galery-slider {
-  margin: 0 16px;
+  //margin: 0 16px;
+  width: 90%;
+  margin: 0 auto;
   padding-bottom: 144px;
   display: flex;
   align-self: center;
-  overflow: hidden;
 
-  @media ($m-xs) {
-    margin: 0 13.75%;
+  @media ($m-xl) {
+    width: 72.5%;
+    overflow: hidden;
   }
 }
 .galery-slider__slide {

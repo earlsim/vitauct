@@ -2,17 +2,25 @@
   padding-top: 72px;
   margin-bottom: 24px;
   font-family: Franklin Gothic Heavy;
-  font-size: 48px;
+  font-size: 28px;
   line-height: 1.292em;
   text-align: center;
+
+  @media ($m-xs) {
+    font-size: 48px;
+  }
 }
 .complex-subtitle {
   margin: 0 auto;
   max-width: 686px;
   font-family: Franklin Gothic Demi;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.200em;
   text-align: center;
+
+  @media ($m-xs) {
+    font-size: 20px;
+  }
 }
 .complex-boxes {
   margin: 44px 0 40px 0;
@@ -125,7 +133,7 @@
   }
 }
 .complex-order {
-  margin-bottom: 22px;
+
   display: block;
   font-family: Franklin Gothic Demi;
   font-size: 18px;
@@ -133,6 +141,10 @@
   color: $c-white;
   text-align: center;
   text-decoration: underline;
+
+  @media ($m-xs) {
+    margin-bottom: 22px;
+  }
 }
 
 .complex-shipping {
@@ -143,13 +155,20 @@
   background: url("../img/shipping-bg.svg") no-repeat;
   background-size: 100% 100%;
   font-family: Franklin Gothic Demi;
+
+  @media ($m-xs) {
+    padding: 26px 4px 20px 4px;
+  }
 }
 .complex-shipping__title {
   margin-bottom: 2px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.200em;
   text-transform: uppercase;
 
+  @media ($m-xs) {
+    font-size: 20px;
+  }
 }
 .complex-shipping__subtitle {
   line-height: 1.250em;

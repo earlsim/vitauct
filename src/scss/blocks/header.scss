@@ -255,7 +255,6 @@
 
     &:hover {
       background-color: $c-yellow-hover-head;
-      width: 196px;
     }
   }
 
@@ -263,6 +262,9 @@
 
     margin-bottom: 50px;
 
+    &--healing {
+      width: 196px;
+    }
     &--head {
       width: 200px;
     }

@@ -1,10 +1,5 @@
 .people-slider {
   overflow: hidden;
-
-  &--pos-rel {
-    position: relative;
-  }
-
 }
 .people-slide {
   display: flex;
@@ -24,17 +19,18 @@
     flex-direction: row;
 
     &__portrait {
-      width: 48%;
+      width: 50%;
       margin-bottom: 0;
     }
     &__content {
-      width: 48%;
+      width: 50%;
     }
   }
 }
 
 .people-pic__img {
-  max-height: 375px;
+  max-height: 369px;
+  max-width: 355px;
   height: 100%;
 }
 .people-slide__pic {
@@ -43,7 +39,7 @@
 
 
   @media ($m-xs) {
-    height: 375px;
+    height: 369px;
 
   }
 
@@ -82,7 +78,7 @@
   position: relative;
   margin-bottom: 16px;
   max-width: 562px;
-  width: 80%;
+  width: 100%;
   max-height: 216px;
   font-size: 20px;
   line-height: 1.200em;
@@ -97,6 +93,10 @@
     width: 100%;
     height: 75%;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+  }
+
+  @media ($m-s) {
+    width: 80%;
   }
 }
 .full-text {
